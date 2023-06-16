@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "name": "Yumazzo",
+  "description": "Yumazzo is a food app to list down the recipes of spanish dishes",
+  "action": {
+    "default_popup": "js/index.html",
+    "default_title": "Yumazzo"
+  }
+}
