@@ -16,10 +16,9 @@ const LanguageDetails: React.FC<Props> = ({ data }) => {
       <div className="detail-container">
         <div className="flex items-center">
           <img src={data?.details?.icon} alt="icon" className="mr-2" />
-          <h2>{data?.details?.difficulty}</h2>
+          <h2>Difficulty: {" "}{data?.details?.difficulty}</h2>
         </div>
         <div>{data?.details?.description}</div>
-        <button>View Full Recipe</button>
       </div>
     </div>
   );
