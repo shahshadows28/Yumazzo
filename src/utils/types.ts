@@ -1,5 +1,7 @@
 export type Language = {
   title: string;
+  flag: string;
+  time: string;
   details: {
     icon: string;
     difficulty: string;
@@ -8,4 +10,4 @@ export type Language = {
   info: {
     [key: string]: string;
   };
-}
+};
